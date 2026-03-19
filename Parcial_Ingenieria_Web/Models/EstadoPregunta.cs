@@ -1,6 +1,8 @@
 ﻿namespace Parcial_Ingenieria_Web.Models
 {
-    public class EstadoPregunta
+    public enum EstadoPregunta
     {
+        sin_resolver,
+        resuelta
     }
 }
