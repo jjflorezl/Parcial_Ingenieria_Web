@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 namespace Parcial_Ingenieria_Web.DAO
 {
-        public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+        public class ApplicationDbContext : DbContext
         {
 
             //Constructor que recibe las opciones de conexión a la bd para tener contexto de esta

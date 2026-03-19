@@ -27,7 +27,8 @@ namespace Parcial_Ingenieria_Web.Services
             await _context.SaveChangesAsync();
             return newPreguntas;
         }
+       
 
-        
+
     }
 }

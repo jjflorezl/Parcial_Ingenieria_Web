@@ -6,5 +6,6 @@ namespace Parcial_Ingenieria_Web.Interfaces
     {
         Task<Preguntas> Create(Preguntas pregunta);
         Task<List<Preguntas>> GetByEstado(String estado);
+        
     }
 }
