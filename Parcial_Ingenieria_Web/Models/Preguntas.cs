@@ -8,11 +8,11 @@ namespace Parcial_Ingenieria_Web.Models
     {
 
             [Key]
-            public Guid Cliente_Id { get; set; } = Guid.NewGuid();
+            public Guid Pregunta_Id { get; set; } = Guid.NewGuid();
             [Required]
             public string Enunciado { get; set; }
             public string Catergoria { get; set; }
-        public EstadoPregunta Estado { get; set; } = EstadoPregunta.sin_resolver;
+        public String Estado { get; set; } = "sin_resolver";
 
 
          
