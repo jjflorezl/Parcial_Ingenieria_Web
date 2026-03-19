@@ -1,0 +1,6 @@
+@Parcial_Ingenieria_Web_HostAddress = http://localhost:5016
+
+GET {{Parcial_Ingenieria_Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
