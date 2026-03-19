@@ -23,9 +23,9 @@ namespace Parcial_Ingenieria_Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Respuestas newRespuesta, Guid PreguntaId)
         {
-            if(CambiarEstado(PreguntaId))
+           
             var createdRespuesta= await _respuestasService.Create(newRespuesta);
-            return Ok(createdRespuesta)
+            return Ok(createdRespuesta);
 
         }
     }

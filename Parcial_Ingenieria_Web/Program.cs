@@ -22,6 +22,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 
 builder.Services.AddScoped<IPreguntasServices, PreguntasServices>();
+builder.Services.AddScoped<IRespuestaService, IRespuestaService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

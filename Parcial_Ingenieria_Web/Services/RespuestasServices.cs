@@ -11,8 +11,12 @@ namespace Parcial_Ingenieria_Web.Services
         {
             _context = context;
         }
-        public async Task<Respuestas> getById(Guid id) => await _context.Respuestas.Where(e => e.Pregunta_id == id);
-
+        public async Task<Respuestas> getById(Guid id)
+            
+        {
+            if (id == null) return null;
+            return await _context.Respuestas.Where(e => e.Pregunta_id == id);
+        }
         public async Task<bool> CambiarEstado(Guid id)
         {
             // Verificamos si existe o no el registro
