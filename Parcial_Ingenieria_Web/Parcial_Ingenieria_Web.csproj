@@ -7,29 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
-    <Compile Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.GlobalUsings.g.cs" />
-    <Compile Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.MvcApplicationPartsAssemblyInfo.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="obj\Debug\net10.0\ApiEndpoints.json" />
-    <Content Include="obj\Debug\net10.0\EndpointInfo\Parcial_Ingenieria_Web.json" />
-    <Content Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.sourcelink.json" />
-    <Content Include="obj\Debug\net10.0\rjsmcshtml.dswa.cache.json" />
-    <Content Include="obj\Debug\net10.0\rjsmrazor.dswa.cache.json" />
-    <Content Include="obj\Debug\net10.0\rpswa.dswa.cache.json" />
-    <Content Include="obj\Debug\net10.0\staticwebassets.build.endpoints.json" />
-    <Content Include="obj\Debug\net10.0\staticwebassets.build.json" />
-    <Content Include="obj\Debug\net10.0\staticwebassets.references.upToDateCheck.txt" />
-    <Content Include="obj\Debug\net10.0\staticwebassets.removed.txt" />
-    <Content Include="obj\Parcial_Ingenieria_Web.csproj.nuget.dgspec.json" />
-    <Content Include="obj\project.assets.json" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.5">
@@ -42,33 +20,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Scalar.AspNetCore" Version="2.13.11" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="obj\Debug\net10.0\staticwebassets\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="obj\Debug\net10.0\apphost.exe" />
-    <None Include="obj\Debug\net10.0\EndpointInfo\Parcial_Ingenieria_Web.OpenApiFiles.cache" />
-    <None Include="obj\Debug\net10.0\Parcial_.A682FB75.Up2Date" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.assets.cache" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.csproj.AssemblyReference.cache" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.csproj.BuildWithSkipAnalyzers" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.dll" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.genruntimeconfig.cache" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.MvcApplicationPartsAssemblyInfo.cache" />
-    <None Include="obj\Debug\net10.0\Parcial_Ingenieria_Web.pdb" />
-    <None Include="obj\Debug\net10.0\refint\Parcial_Ingenieria_Web.dll" />
-    <None Include="obj\Debug\net10.0\ref\Parcial_Ingenieria_Web.dll" />
-    <None Include="obj\Debug\net10.0\staticwebassets.build.json.cache" />
-    <None Include="obj\Debug\net10.0\swae.build.ex.cache" />
-    <None Include="obj\Parcial_Ingenieria_Web.csproj.nuget.g.props" />
-    <None Include="obj\Parcial_Ingenieria_Web.csproj.nuget.g.targets" />
-    <None Include="obj\project.nuget.cache" />
   </ItemGroup>
 
 </Project>
